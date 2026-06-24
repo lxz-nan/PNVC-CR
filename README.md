@@ -16,12 +16,24 @@ pip install -r requirements.txt
 
 ## 2. Prepare Models And Data
 
-Put the pretrained checkpoints under `model_pth/`:
+Download the pretrained checkpoints from the [V1 release](https://github.com/lxz-nan/PNVC-CR/releases/tag/V1) and put them under `model_pth/`:
 
 ```text
 model_pth/
   cvpr2023_image_yuv420_psnr.pth.tar
   PNVC-CR.pth.tar
+```
+
+You can download them with:
+
+```bash
+mkdir -p model_pth
+
+wget -O model_pth/cvpr2023_image_yuv420_psnr.pth.tar \
+  https://github.com/lxz-nan/PNVC-CR/releases/download/V1/cvpr2023_image_yuv420_psnr.pth.tar
+
+wget -O model_pth/PNVC-CR.pth.tar \
+  https://github.com/lxz-nan/PNVC-CR/releases/download/V1/PNVC-CR.pth.tar
 ```
 
 Put YUV test sequences under the dataset root used by the json config. By default, the configs use:
