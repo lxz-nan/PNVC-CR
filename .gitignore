@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+src/cpp/build/
+*.so
+*.o
+*.a
+
+# Downloaded third-party source
+src/cpp/3rdparty/pybind11/pybind11-src/
+
+# Outputs and local data
+output/
+datasets/
+
+# Keep the model directory, but do not track checkpoint files.
+model_pth/*
+!model_pth/.gitkeep
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.onnx
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

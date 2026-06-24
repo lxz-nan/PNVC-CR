@@ -1,0 +1,27 @@
+{
+    "root_path": "/data/2263836119/basic/Common_test_YUV",
+    "test_classes": {
+        "HEVC_D": {
+            "test": 1,
+            "base_path": "HEVC_D",
+            "src_type": "yuv420",
+            "sequences": {
+                "BasketballPass_416x240_50.yuv":    {"width": 416, "height": 240, "frames": 500, "intra_period": -1},
+                "BlowingBubbles_416x240_50.yuv":    {"width": 416, "height": 240, "frames": 500, "intra_period": -1},
+                "BQSquare_416x240_60.yuv":          {"width": 416, "height": 240, "frames": 600, "intra_period": -1},
+                "RaceHorses_416x240_30.yuv":        {"width": 416, "height": 240, "frames": 300, "intra_period": -1}
+            }
+        },
+        "HEVC_C": {
+            "test": 1,
+            "base_path": "HEVC_C",
+            "src_type": "yuv420",
+            "sequences": {
+                "BQMall_832x480_60.yuv":            {"width": 832, "height": 480, "frames": 600, "intra_period": -1},
+                "BasketballDrill_832x480_50.yuv":   {"width": 832, "height": 480, "frames": 500, "intra_period": -1},
+                "PartyScene_832x480_50.yuv":        {"width": 832, "height": 480, "frames": 500, "intra_period": -1},
+                "RaceHorses_832x480_30.yuv":        {"width": 832, "height": 480, "frames": 300, "intra_period": -1}
+            }
+        }
+    }
+}

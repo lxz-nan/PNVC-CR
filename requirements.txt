@@ -1,0 +1,12 @@
+numpy>=1.20.0
+scipy
+matplotlib
+pytorch-msssim==0.2.0
+tqdm
+bd-metric
+
+Pillow
+timm
+lpips
+DISTS-pytorch
+pandas
